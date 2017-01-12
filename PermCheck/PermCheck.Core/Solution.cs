@@ -18,6 +18,11 @@
                 }
             }
 
+            if (max != array.Length)
+            {
+                return 0;
+            }
+
             var isPerm = 1;
             for (var i = 1; i <= max; i++)
             {
